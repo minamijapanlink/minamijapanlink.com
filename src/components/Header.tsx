@@ -36,15 +36,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection,
       <div className="bg-zinc-900 text-white text-xs py-2 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-4 text-zinc-300">
-            <span className="inline-flex items-center gap-1.5 font-medium text-amber-300">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-              </span>
-              Now Accepting April & October 2026 Japan Visa Applications!
-            </span>
-            <span className="hidden md:inline text-zinc-500">|</span>
-            <span className="hidden md:flex items-center gap-1">
+            <span className="flex items-center gap-1">
               <MapPin className="w-3.5 h-3.5 text-red-400" /> Japan Head Office & Global Online Classes
             </span>
           </div>
