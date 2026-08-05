@@ -140,10 +140,7 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
                 <span className="text-zinc-400">Director Email:</span>
                 <a href="mailto:israfiltalukder60@gmail.com" className="font-mono text-zinc-200 text-[11px] hover:underline">israfiltalukder60@gmail.com</a>
               </div>
-              <div className="flex justify-between items-center">
-                <span className="text-zinc-400">Head Legal Counsel:</span>
-                <span className="font-bold text-white">Takeshi Minami (南 健志)</span>
-              </div>
+
             </div>
 
             <div className="bg-zinc-900/90 p-4 rounded-xl border border-zinc-700 text-xs italic text-zinc-300">
