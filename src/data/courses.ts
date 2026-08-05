@@ -51,7 +51,7 @@ export const COURSES: Course[] = [
     features: [
       'Comprehensive JLPT N4 exam mock tests & feedback',
       'Real-life conversational simulations (Part-time job & Apartment rental)',
-      'Direct admission support to partner Language Academies in Tokyo/Osaka',
+      'Direct admission support to partner Language Academies in Japan',
       'JLPT Exam Registration assistance'
     ],
     curriculum: [

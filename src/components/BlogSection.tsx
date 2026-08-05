@@ -33,7 +33,7 @@ export const BlogSection: React.FC = () => {
             Latest Visa Tips & Study Guides
           </h2>
           <p className="text-base sm:text-lg text-zinc-600 leading-relaxed">
-            Written by certified Gyoseishoshi lawyers, Japanese language instructors, and senior student counselors in Tokyo.
+            Written by certified Gyoseishoshi lawyers, Japanese language instructors, and senior student counselors in Japan.
           </p>
         </div>
 

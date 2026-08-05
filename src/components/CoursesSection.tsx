@@ -72,7 +72,7 @@ export const CoursesSection = ({ onOpenBooking }: CoursesSectionProps) => {
             <span className="text-xs font-bold text-zinc-500 uppercase tracking-wide mr-1 flex items-center gap-1">
               <Globe2 className="w-3.5 h-3.5" /> Format:
             </span>
-            {['All', 'Online Live', 'Tokyo Campus', 'Hybrid'].map((mode) => (
+            {['All', 'Online Live', 'Japan Campus', 'Hybrid'].map((mode) => (
               <button
                 key={mode}
                 onClick={() => setSelectedMode(mode)}

@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateTo, onOpenBooking }) =
             <Logo variant="full" lightMode={true} />
             
             <p className="text-xs text-zinc-400 leading-relaxed max-w-sm">
-              Minami Japan Link is a licensed Japanese language education institute and Gyoseishoshi visa consulting agency based in Tokyo. We empower international students and professionals to study, work, and thrive in Japan.
+              Minami Japan Link is a licensed Japanese language education institute and Gyoseishoshi visa consulting agency based in Japan. We empower international students and professionals to study, work, and thrive in Japan.
             </p>
 
             <div className="pt-2 space-y-2 text-xs text-zinc-300">
@@ -62,7 +62,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateTo, onOpenBooking }) =
               </div>
               <div className="flex items-center gap-2.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span className="text-zinc-400">Tokyo Immigration Bureau Registration #1808291</span>
+                <span className="text-zinc-400">Japan Immigration Bureau Registration #1808291</span>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateTo, onOpenBooking }) =
           <div className="lg:col-span-4 space-y-4 bg-zinc-900 p-6 rounded-2xl border border-zinc-800">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Start Your Japan Journey</h4>
             <p className="text-xs text-zinc-400 leading-relaxed">
-              Accepting applications for April & October 2026 Student Visa intakes. Schedule a private consultation with our Tokyo counselors.
+              Accepting applications for April & October 2026 Student Visa intakes. Schedule a private consultation with our Japan counselors.
             </p>
 
             <div className="space-y-2 pt-2">

@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Calculator, DollarSign, Home, Utensils, Train, HeartPulse, Briefcase, Sparkles } from 'lucide-react';
 
 export const CostOfLivingCalculator: React.FC = () => {
-  const [city, setCity] = useState<'Tokyo' | 'Osaka' | 'Kyoto' | 'Fukuoka'>('Tokyo');
+  const [city, setCity] = useState<'Japan' | 'Osaka' | 'Kyoto' | 'Fukuoka'>('Japan');
   const [housing, setHousing] = useState<'ShareHouse' | 'Studio' | 'Suburbs'>('ShareHouse');
   const [food, setFood] = useState<'Cook' | 'Mix' | 'EatOut'>('Mix');
   const [workHours, setWorkHours] = useState<number>(20);
 
   // Base city multipliers
   const cityMultiplier = {
-    Tokyo: 1.0,
+    Japan: 1.0,
     Osaka: 0.85,
     Kyoto: 0.82,
     Fukuoka: 0.75,
@@ -40,7 +40,7 @@ export const CostOfLivingCalculator: React.FC = () => {
   const totalMonthlyUSD = Math.round(totalMonthlyJPY / 150); // 1 USD ~ 150 JPY
 
   // Arubaito Income
-  const hourlyWageJPY = city === 'Tokyo' ? 1150 : 1050;
+  const hourlyWageJPY = city === 'Japan' ? 1150 : 1050;
   const monthlyWorkIncomeJPY = workHours * 4 * hourlyWageJPY;
   const netOutofPocketJPY = Math.max(0, totalMonthlyJPY - monthlyWorkIncomeJPY);
 
@@ -71,7 +71,7 @@ export const CostOfLivingCalculator: React.FC = () => {
             onChange={(e) => setCity(e.target.value as any)}
             className="w-full p-2.5 rounded-xl border border-zinc-300 text-xs font-bold bg-white text-zinc-900 focus:ring-2 focus:ring-red-400"
           >
-            <option value="Tokyo">Tokyo (Shinjuku / Shibuya)</option>
+            <option value="Japan">Japan (Shinjuku / Shibuya)</option>
             <option value="Osaka">Osaka (Namba / Umeda)</option>
             <option value="Kyoto">Kyoto (Cultural Capital)</option>
             <option value="Fukuoka">Fukuoka (Affordable Hub)</option>

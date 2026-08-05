@@ -61,7 +61,7 @@ export const VisaConsultingSection = ({ onOpenBooking }: VisaConsultingSectionPr
             Japan Visa & COE Consulting Services
           </h2>
           <p className="text-base sm:text-lg text-zinc-600 leading-relaxed">
-            Navigating Tokyo Regional Immigration Bureau regulations with 98.4% success. We handle complete document preparation, translation, and legal filing.
+            Navigating Japan Regional Immigration Bureau regulations with 98.4% success. We handle complete document preparation, translation, and legal filing.
           </p>
         </div>
 

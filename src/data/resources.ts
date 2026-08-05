@@ -16,7 +16,7 @@ export const STUDENT_RESOURCES: StudentResource[] = [
     category: 'COE Checklist',
     level: 'All Applicants',
     fileSize: '1.8 MB',
-    description: 'Step-by-step checklist of 14 mandatory documents required by Tokyo Regional Immigration Bureau for April & October intakes.',
+    description: 'Step-by-step checklist of 14 mandatory documents required by Japan Regional Immigration Bureau for April & October intakes.',
     downloadable: true
   },
   {
@@ -39,7 +39,7 @@ export const STUDENT_RESOURCES: StudentResource[] = [
   },
   {
     id: 'res-5',
-    title: 'Tokyo Part-time Job (Arubaito) Interview Japanese Script',
+    title: 'Japan Part-time Job (Arubaito) Interview Japanese Script',
     category: 'Audio',
     level: 'N4 - N3',
     fileSize: '12.5 MB',
@@ -81,8 +81,8 @@ export const FLASHCARDS_N5: Flashcard[] = [
     japanese: '学校',
     reading: 'がっこう (gakkou)',
     meaning: 'School',
-    exampleSentence: '東京の学校に行きたいです。',
-    exampleTranslation: 'I want to go to a school in Tokyo.',
+    exampleSentence: '日本の学校に行きたいです。',
+    exampleTranslation: 'I want to go to a school in Japan.',
     level: 'N5'
   },
   {

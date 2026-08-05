@@ -107,7 +107,7 @@ export const TestimonialsSection = () => {
 
         {/* Global Placement Banner */}
         <div className="mt-12 bg-white rounded-2xl p-6 border border-zinc-200 text-center text-xs text-zinc-500 font-medium max-w-2xl mx-auto">
-          🌏 Proudly placing students from <strong className="text-zinc-800">India, Philippines, Myanmar, Nepal, Vietnam, USA, Indonesia, Sri Lanka & Brazil</strong> in Tokyo, Osaka, Kyoto, and Nagoya.
+          🌏 Proudly placing students from <strong className="text-zinc-800">India, Philippines, Myanmar, Nepal, Vietnam, USA, Indonesia, Sri Lanka & Brazil</strong> in Japan, Osaka, Kyoto, and Nagoya.
         </div>
 
       </div>

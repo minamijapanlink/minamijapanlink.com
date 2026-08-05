@@ -34,7 +34,7 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
           </h2>
           
           <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
-            Headquartered in Nishi-Shinjuku, Tokyo, Minami Japan Link combines licensed immigration law practice with top-tier JLPT language training. We ensure every international student and professional transitions smoothly to life, study, and careers in Japan.
+            Headquartered in Nishi-Shinjuku, Japan, Minami Japan Link combines licensed immigration law practice with top-tier JLPT language training. We ensure every international student and professional transitions smoothly to life, study, and careers in Japan.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
               100+
             </div>
             <h3 className="text-xl font-black text-zinc-900">JLPT Graduates</h3>
-            <p className="text-xs text-zinc-500">Students achieving N5 through N1 JLPT proficiency for Tokyo entry.</p>
+            <p className="text-xs text-zinc-500">Students achieving N5 through N1 JLPT proficiency for Japan entry.</p>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
         <div className="bg-zinc-900 text-white rounded-3xl p-8 sm:p-12 border border-zinc-800 shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-6">
             <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-widest">
-              <ShieldCheck className="w-4 h-4" /> Dual Licensed Agency in Tokyo
+              <ShieldCheck className="w-4 h-4" /> Dual Licensed Agency in Japan
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-black leading-snug">
@@ -78,13 +78,13 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
             </h3>
 
             <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-              Navigating Japanese immigration law and higher education applications can feel daunting from abroad. Minami Japan Link was created to remove the stress. Unlike general agency middlemen, our Tokyo office houses both licensed Gyoseishoshi immigration specialists and certified JLPT educators under one roof.
+              Navigating Japanese immigration law and higher education applications can feel daunting from abroad. Minami Japan Link was created to remove the stress. Unlike general agency middlemen, our Japan office houses both licensed Gyoseishoshi immigration specialists and certified JLPT educators under one roof.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
               <div className="flex items-start gap-2.5 text-zinc-200">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>Tokyo Regional Immigration Registration #1808291</span>
+                <span>Japan Regional Immigration Registration #1808291</span>
               </div>
               <div className="flex items-start gap-2.5 text-zinc-200">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
@@ -96,7 +96,7 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
               </div>
               <div className="flex items-start gap-2.5 text-zinc-200">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>24/7 Tokyo Arrival, Housing, & Student Care</span>
+                <span>24/7 Japan Arrival, Housing, & Student Care</span>
               </div>
             </div>
 

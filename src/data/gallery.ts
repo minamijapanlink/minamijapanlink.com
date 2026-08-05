@@ -33,8 +33,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'classroom',
     categoryLabel: 'Classroom & Study',
     imageUrl: imgClassroom,
-    description: 'Students engaged in interactive kanji practice with certified native Japanese instructors in our multimedia Tokyo classroom.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    description: 'Students engaged in interactive kanji practice with certified native Japanese instructors in our multimedia Japan classroom.',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'July 2026',
     tags: ['JLPT N5/N4', 'Kanji Class', 'Interactive Learning']
   },
@@ -45,7 +45,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgLecture,
     description: 'Native Japanese teachers explaining complex JLPT N3/N2 sentence structures and reading comprehension strategies.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'July 2026',
     tags: ['JLPT N3/N2', 'Grammar Lecture', 'Native Speaker']
   },
@@ -56,7 +56,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgWorkshop,
     description: 'Hands-on kanji stroke order and cultural calligraphy exercises designed to reinforce memory retention.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'June 2026',
     tags: ['Kanji Practice', 'Calligraphy', 'Culture Integration']
   },
@@ -67,7 +67,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgGroupWork,
     description: 'Interactive peer-to-peer conversational practice focusing on everyday situations, shopping, and train navigation in Japan.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'June 2026',
     tags: ['Kaiwa Practice', 'Spoken Japanese', 'Group Work']
   },
@@ -78,7 +78,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgMockExam,
     description: 'Simulated real-condition JLPT mock exam hall testing speed, answer sheet marking, and listening section endurance.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'May 2026',
     tags: ['Mock Exam', 'JLPT N5-N1', 'Exam Prep']
   },
@@ -89,7 +89,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgAudioLab,
     description: 'Dedicated audio station for listening comprehension practice using authentic JLPT listening section recordings.',
-    location: 'Language Lab, Tokyo',
+    location: 'Language Lab, Japan',
     date: 'May 2026',
     tags: ['Choukai Listening', 'Audio Lab', 'Pronunciation']
   },
@@ -100,7 +100,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgKeigoWorkshop,
     description: 'Advanced students training in formal honorifics (Sonkeigo & Kenjougo) required for corporate employment in Japan.',
-    location: 'Executive Classroom, Tokyo',
+    location: 'Executive Classroom, Japan',
     date: 'April 2026',
     tags: ['Business Keigo', 'N2/N1 Level', 'Career Prep']
   },
@@ -111,7 +111,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgMentoring,
     description: 'Personalized feedback sessions where teachers analyze student essay writing and individual grammar weaknesses.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'April 2026',
     tags: ['1-on-1 Coaching', 'Teacher Feedback', 'Personalized']
   },
@@ -122,7 +122,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgKanaBeginner,
     description: 'First-week orientation class teaching zero-level beginners smooth reading and writing of Kana alphabets.',
-    location: 'Shinjuku Main Campus, Tokyo',
+    location: 'Shinjuku Main Campus, Japan',
     date: 'March 2026',
     tags: ['Beginner N5', 'Kana Mastery', 'First Steps']
   },
@@ -133,7 +133,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Classroom & Study',
     imageUrl: imgInterviewPrep,
     description: 'Mock interviews conducted in Japanese to prepare students for official Japanese language school entrance evaluations.',
-    location: 'Interview Room, Tokyo',
+    location: 'Interview Room, Japan',
     date: 'March 2026',
     tags: ['COE Interview', 'Visa Preparation', 'School Admissions']
   },
@@ -145,21 +145,21 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'visa_success',
     categoryLabel: 'COE & Visa Success',
     imageUrl: imgCoe,
-    description: 'Celebrating the successful issuance of Certificate of Eligibility (COE) for our student entering a top Tokyo Japanese Language Academy.',
-    location: 'Minami Japan Link Office, Tokyo',
+    description: 'Celebrating the successful issuance of Certificate of Eligibility (COE) for our student entering a top Japan Japanese Language Academy.',
+    location: 'Minami Japan Link Office, Japan',
     date: 'June 2026',
     tags: ['COE Success', 'Student Visa', 'Gyoseishoshi Approved']
   },
   {
     id: 'gal-off-1',
-    title: 'Tokyo Headquarters Consultation Desk',
+    title: 'Japan Headquarters Consultation Desk',
     category: 'office',
-    categoryLabel: 'Tokyo Office & Campus',
+    categoryLabel: 'Japan Office & Campus',
     imageUrl: imgTokyoOffice,
     description: 'Our modern consulting center where licensed Gyoseishoshi immigration attorneys review visa documentation and conduct student interviews.',
-    location: 'Chiyoda-ku, Tokyo',
+    location: 'Chiyoda-ku, Japan',
     date: 'May 2026',
-    tags: ['Tokyo HQ', 'Visa Advisory', 'Consulting Suite']
+    tags: ['Japan HQ', 'Visa Advisory', 'Consulting Suite']
   },
   {
     id: 'gal-cul-1',
@@ -168,7 +168,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Cultural Events',
     imageUrl: imgCampusLife,
     description: 'New international students taking part in traditional Japanese culture workshops and orientation to prepare for life in Japan.',
-    location: 'Yoyogi Park & Shinjuku, Tokyo',
+    location: 'Yoyogi Park & Shinjuku, Japan',
     date: 'April 2026',
     tags: ['Orientation', 'Culture Workshop', 'Japan Life']
   },
@@ -179,7 +179,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     categoryLabel: 'Events & Gathering',
     imageUrl: imgCulturalEvent,
     description: 'Annual Minami Japan Link alumni and student gathering celebrating cherry blossom season and academic breakthroughs.',
-    location: 'Ueno Park, Tokyo',
+    location: 'Ueno Park, Japan',
     date: 'March 2026',
     tags: ['Alumni Meet', 'Sakura 2026', 'Community']
   }

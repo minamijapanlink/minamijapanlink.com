@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection,
             </span>
             <span className="hidden md:inline text-zinc-500">|</span>
             <span className="hidden md:flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5 text-red-400" /> Tokyo Head Office & Global Online Classes
+              <MapPin className="w-3.5 h-3.5 text-red-400" /> Japan Head Office & Global Online Classes
             </span>
           </div>
 

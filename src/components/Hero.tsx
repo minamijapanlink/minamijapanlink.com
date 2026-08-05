@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-zinc-600 max-w-2xl leading-relaxed">
-              Minami Japan Link bridges your ambition with reality. Learn Japanese from beginner JLPT N5 to corporate N1, and receive certified Certificate of Eligibility (COE) visa processing from Tokyo specialists.
+              Minami Japan Link bridges your ambition with reality. Learn Japanese from beginner JLPT N5 and N4, and receive certified Certificate of Eligibility (COE) visa processing from Japan specialists.
             </p>
 
             {/* Quick Feature Bullets */}
@@ -60,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>JLPT N5 - N1 Certified Native Instructors</span>
+                <span>JLPT N5 - N4 Certified Native Instructors</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
@@ -93,7 +93,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
             </div>
 
             {/* Social Proof / Stats */}
-            <div className="pt-6 border-t border-zinc-200/80 grid grid-cols-3 gap-4">
+            <div className="pt-6 border-t border-zinc-200/80 grid grid-cols-2 gap-4">
               <div>
                 <p className="text-2xl sm:text-3xl font-black text-zinc-900">100+</p>
                 <p className="text-xs text-zinc-500 font-medium mt-0.5">Students Placed in Japan</p>
@@ -101,10 +101,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
               <div>
                 <p className="text-2xl sm:text-3xl font-black text-[#E5382B]">100%</p>
                 <p className="text-xs text-zinc-500 font-medium mt-0.5">COE Success Rate</p>
-              </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-black text-zinc-900">15+</p>
-                <p className="text-xs text-zinc-500 font-medium mt-0.5">Partner Academies in Tokyo</p>
               </div>
             </div>
           </div>
@@ -119,9 +115,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
                   <div className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse" />
                   <span className="text-xs font-bold text-zinc-800 uppercase tracking-wider">Quick Gateway</span>
                 </div>
-                <span className="text-xs font-semibold text-[#E5382B] bg-red-50 px-2.5 py-1 rounded-full">
-                  Intake: April / Oct 2026
-                </span>
               </div>
 
               {/* Selector Tabs */}
@@ -212,7 +205,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
               {activeTab === 'consultation' && (
                 <div className="space-y-3.5 pt-1">
                   <div className="bg-amber-50 border border-amber-200/80 rounded-xl p-3 text-xs text-amber-900 leading-relaxed">
-                    <span className="font-bold">1-on-1 Personalized Session:</span> Get a dedicated 30-minute video session with our Tokyo Gyoseishoshi document specialist.
+                    <span className="font-bold">1-on-1 Personalized Session:</span> Get a dedicated 30-minute video session with our Japan Gyoseishoshi document specialist.
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-xs text-zinc-700">
@@ -221,7 +214,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigateTo }) => {
                     </div>
                     <div className="flex items-center gap-2 text-xs text-zinc-700">
                       <CheckCircle className="w-4 h-4 text-emerald-600" />
-                      <span>Matching with accredited Tokyo schools</span>
+                      <span>Matching with accredited Japan schools</span>
                     </div>
                     <div className="flex items-center gap-2 text-xs text-zinc-700">
                       <CheckCircle className="w-4 h-4 text-emerald-600" />

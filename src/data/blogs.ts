@@ -14,7 +14,7 @@ export const BLOG_POSTS: BlogPost[] = [
       avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200'
     },
     image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800',
-    excerpt: 'Everything you need to know about financial sponsorship, bank balance rules, translation requirements, and Tokyo Regional Immigration Bureau deadlines for April & October 2026 intakes.',
+    excerpt: 'Everything you need to know about financial sponsorship, bank balance rules, translation requirements, and Japan Regional Immigration Bureau deadlines for April & October 2026 intakes.',
     featured: true,
     keyTakeaways: [
       'Maintain a clean bank statement showing $15,000–$20,000 USD equivalent for at least 3-6 months.',
@@ -23,7 +23,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Submit your application dossier 4.5 months before your desired intake month.'
     ],
     content: `
-      <p>Applying for a Japanese Student Visa involves a critical two-step process: first, securing your **Certificate of Eligibility (COE)** from the Ministry of Justice in Tokyo, and second, receiving your visa sticker from your local Embassy.</p>
+      <p>Applying for a Japanese Student Visa involves a critical two-step process: first, securing your **Certificate of Eligibility (COE)** from the Ministry of Justice in Japan, and second, receiving your visa sticker from your local Embassy.</p>
       
       <h3>1. What is the Certificate of Eligibility (COE)?</h3>
       <p>The COE is the official official document issued by Japanese Regional Immigration confirming that you satisfy all legal requirements under the Immigration Control Act. Without a COE, an overseas embassy cannot issue a Student Visa.</p>
@@ -42,7 +42,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: 'blog-tokyo-living-cost',
-    title: 'How Much Money Do You Need to Live as a Student in Tokyo? (2026 Breakdown)',
+    title: 'How Much Money Do You Need to Live as a Student in Japan? (2026 Breakdown)',
     slug: 'tokyo-student-living-costs-2026',
     category: 'Living in Japan',
     readTime: '5 min read',
@@ -56,15 +56,15 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Detailed realistic monthly budget breakdown for housing, food, transportation, health insurance, and how part-time jobs (Arubaito) offset living costs.',
     featured: false,
     keyTakeaways: [
-      'Average student monthly expense in Tokyo ranges from 110,000 JPY to 150,000 JPY ($750–$1,000 USD).',
+      'Average student monthly expense in Japan ranges from 110,000 JPY to 150,000 JPY ($750–$1,000 USD).',
       'Shared dorms or share houses (Gaijin Houses) save up to 40% on rent compared to private apartments.',
       'Students with 28 hrs/week part-time jobs earn 120,000–140,000 JPY monthly, covering basic living expenses.',
       'National Health Insurance (NHI) covers 70% of medical bills for just ~1,500 JPY/month for students.'
     ],
     content: `
-      <p>Planning your budget before arriving in Japan prevents financial stress and lets you focus on your studies. Here is an authentic breakdown based on 2026 current prices in Tokyo.</p>
+      <p>Planning your budget before arriving in Japan prevents financial stress and lets you focus on your studies. Here is an authentic breakdown based on 2026 current prices in Japan.</p>
       
-      <h3>Monthly Budget Breakdown (Average Student in Tokyo)</h3>
+      <h3>Monthly Budget Breakdown (Average Student in Japan)</h3>
       <table>
         <tr><th>Expense Item</th><th>Estimated Cost (JPY)</th><th>Cost (USD approx)</th></tr>
         <tr><td>Share House / Student Dorm Rent</td><td>45,000 - 65,000 JPY</td><td>$300 - $440</td></tr>
@@ -77,7 +77,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </table>
 
       <h3>Offsetting Expenses with Part-Time Jobs (Arubaito)</h3>
-      <p>International students in Japan holding a <em>Permission to Engage in Other Activity</em> can work up to <strong>28 hours per week</strong> during school semesters and <strong>40 hours per week</strong> during official school holidays. At the Tokyo minimum wage (~1,120 JPY/hour), working 28 hours yields approximately 125,000 JPY per month!</p>
+      <p>International students in Japan holding a <em>Permission to Engage in Other Activity</em> can work up to <strong>28 hours per week</strong> during school semesters and <strong>40 hours per week</strong> during official school holidays. At the Japan minimum wage (~1,120 JPY/hour), working 28 hours yields approximately 125,000 JPY per month!</p>
     `
   },
   {

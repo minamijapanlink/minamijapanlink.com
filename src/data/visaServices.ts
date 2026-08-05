@@ -9,7 +9,7 @@ export const VISA_CATEGORIES: VisaCategory[] = [
     processingTime: '3 - 5 Months (COE Process)',
     stayDuration: '6 Months to 2 Years (Renewable)',
     successRate: 99.2,
-    description: 'Complete guidance for enrollment into top Japanese Language Schools, Universities, and Vocational Colleges across Tokyo, Osaka, Kyoto, and Fukuoka. Includes 28-hour/week part-time work permission (Shikakugai Kutsu).',
+    description: 'Complete guidance for enrollment into top Japanese Language Schools, Universities, and Vocational Colleges across Japan, Osaka, Kyoto, and Fukuoka. Includes 28-hour/week part-time work permission (Shikakugai Kutsu).',
     requirements: [
       'Completed 12 years of formal education (High School Diploma or Bachelor degree)',
       '150+ hours of documented Japanese study or JLPT N5/N4 certificate',
@@ -26,7 +26,7 @@ export const VISA_CATEGORIES: VisaCategory[] = [
     minJapaneseLevel: 'JLPT N5 or 150 study hours',
     supportIncluded: [
       'School match-making based on tuition budget & target city',
-      'COE (Certificate of Eligibility) application compilation & submission to Tokyo Immigration',
+      'COE (Certificate of Eligibility) application compilation & submission to Japan Immigration',
       'Official document translation to Japanese by certified translators',
       'Pre-departure orientation & housing assistance in Japan',
       'Part-time job preparation & residence registration guide'
@@ -159,19 +159,19 @@ export const COE_STEPS = [
   {
     step: 2,
     title: 'School / Job Matching & Interview',
-    description: 'We match you with verified Japanese language academies or employers in Tokyo/Osaka and prepare you for the admission interview.',
+    description: 'We match you with verified Japanese language academies or employers in Japan and prepare you for the admission interview.',
     timeframe: 'Week 2 - 4'
   },
   {
     step: 3,
     title: 'COE Application Dossier Filing',
-    description: 'Minami team translates all documents, compiles the legal dossier, and submits it to the Tokyo Regional Immigration Bureau.',
+    description: 'Minami team translates all documents, compiles the legal dossier, and submits it to the Japan Regional Immigration Bureau.',
     timeframe: 'Month 2'
   },
   {
     step: 4,
     title: 'Immigration Review & COE Issuance',
-    description: 'Immigration evaluates the application. Upon approval, the official Certificate of Eligibility (COE) is issued in Tokyo.',
+    description: 'Immigration evaluates the application. Upon approval, the official Certificate of Eligibility (COE) is issued in Japan.',
     timeframe: 'Month 3 - 4'
   },
   {

@@ -14,7 +14,7 @@ export interface Course {
   priceTK: number;
   description: string;
   schedules: string[];
-  mode: 'Online Live' | 'Tokyo Campus' | 'Hybrid';
+  mode: 'Online Live' | 'Japan Campus' | 'Hybrid';
   targetAudience: string;
   features: string[];
   curriculum: {
@@ -67,7 +67,7 @@ export interface Testimonial {
   photoUrl: string;
   visaType: string;
   courseTaken: string;
-  destination: string; // e.g. "Waseda Cultural Institute, Tokyo"
+  destination: string; // e.g. "Waseda Cultural Institute, Japan"
   jlptAchieved: string;
   quote: string;
   year: string;

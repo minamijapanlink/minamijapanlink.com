@@ -65,10 +65,10 @@ export const WhatsAppWidget: React.FC = () => {
                 <Sparkles className="w-3.5 h-3.5 text-amber-500" /> Konnichiwa! 👋
               </p>
               <p>
-                Welcome to <strong>Minami Japan Link</strong>! How can our Tokyo visa & education advisors assist you today?
+                Welcome to <strong>Minami Japan Link</strong>! How can our Japan visa & education advisors assist you today?
               </p>
               <div className="pt-1 flex items-center gap-1 text-[10px] text-zinc-400 font-medium">
-                <CheckCircle className="w-3 h-3 text-emerald-500" /> Verified Tokyo Office Support
+                <CheckCircle className="w-3 h-3 text-emerald-500" /> Verified Japan Office Support
               </div>
             </div>
 
@@ -111,7 +111,7 @@ export const WhatsAppWidget: React.FC = () => {
           </div>
 
           <div className="bg-zinc-50 px-4 py-2 text-center border-t border-zinc-100 text-[10px] text-zinc-400">
-            One-click direct connection to Tokyo Legal & Admissions Team
+            One-click direct connection to Japan Legal & Admissions Team
           </div>
 
         </div>

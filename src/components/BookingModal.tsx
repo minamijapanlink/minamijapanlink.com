@@ -50,7 +50,7 @@ SUMMARY:Minami Japan Link - ${bookingType === 'trial_lesson' ? 'Free Trial Lesso
 DESCRIPTION:Your appointment with Minami Japan Link advisor. Ref: ${bookingRef}
 DTSTART:20260805T050000Z
 DTEND:20260805T054500Z
-LOCATION:Online Zoom Meeting / Tokyo Office
+LOCATION:Online Zoom Meeting / Japan Office
 END:VEVENT
 END:VCALENDAR`;
 
@@ -316,7 +316,7 @@ END:VCALENDAR`;
               </div>
               <div className="flex justify-between">
                 <span className="text-zinc-400">Advisor Assigned:</span>
-                <span className="font-bold text-zinc-800">Minami Senior Counselor (Tokyo)</span>
+                <span className="font-bold text-zinc-800">Minami Senior Counselor (Japan)</span>
               </div>
             </div>
 

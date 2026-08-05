@@ -14,7 +14,7 @@ export const GallerySection: React.FC = () => {
   const [newTitle, setNewTitle] = useState('');
   const [newCategory, setNewCategory] = useState<'classroom' | 'visa_success' | 'office' | 'culture' | 'events'>('classroom');
   const [newImageUrl, setNewImageUrl] = useState('');
-  const [newLocation, setNewLocation] = useState('Tokyo, Japan');
+  const [newLocation, setNewLocation] = useState('Japan');
   const [newDescription, setNewDescription] = useState('');
   const [uploadedFilePreview, setUploadedFilePreview] = useState<string | null>(null);
 
@@ -22,7 +22,7 @@ export const GallerySection: React.FC = () => {
     { id: 'all', label: 'All Photos' },
     { id: 'classroom', label: 'Classroom' },
     { id: 'visa_success', label: 'COE & Visa' },
-    { id: 'office', label: 'Tokyo Office' },
+    { id: 'office', label: 'Japan Office' },
     { id: 'culture', label: 'Culture' },
     { id: 'events', label: 'Events' },
   ];
@@ -73,7 +73,7 @@ export const GallerySection: React.FC = () => {
     const categoryLabels: Record<string, string> = {
       classroom: 'Classroom & Study',
       visa_success: 'COE & Visa Success',
-      office: 'Tokyo Office & Campus',
+      office: 'Japan Office & Campus',
       culture: 'Cultural Events',
       events: 'Events & Gathering',
     };
@@ -85,7 +85,7 @@ export const GallerySection: React.FC = () => {
       categoryLabel: categoryLabels[newCategory] || 'Company Photo',
       imageUrl: finalImage,
       description: newDescription || 'Company photo uploaded by visitor.',
-      location: newLocation || 'Tokyo, Japan',
+      location: newLocation || 'Japan',
       date: 'Just Now',
       tags: ['Company Photo', 'User Upload', newCategory]
     };
@@ -120,7 +120,7 @@ export const GallerySection: React.FC = () => {
               Minami Japan Link <span className="text-[#EE3524]">In Photos</span>
             </h2>
             <p className="text-xs sm:text-sm text-zinc-400 mt-1">
-              Slide by slide view of our Tokyo classrooms ({itemsList.filter(i => i.category==='classroom').length} photos), student visa success, and company operations.
+              Slide by slide view of our Japan classrooms ({itemsList.filter(i => i.category==='classroom').length} photos), student visa success, and company operations.
             </p>
           </div>
 
@@ -308,7 +308,7 @@ export const GallerySection: React.FC = () => {
                 >
                   <option value="classroom">Classroom & Study (10+)</option>
                   <option value="visa_success">COE & Visa Success</option>
-                  <option value="office">Tokyo Office & Campus</option>
+                  <option value="office">Japan Office & Campus</option>
                   <option value="culture">Cultural Events</option>
                   <option value="events">Gatherings & Events</option>
                 </select>
