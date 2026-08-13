@@ -138,7 +138,7 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onOpenBooking })
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-zinc-400">Director Email:</span>
-                <a href="mailto:israfiltalukder60@gmail.com" className="font-mono text-zinc-200 text-[11px] hover:underline">israfiltalukder60@gmail.com</a>
+                <a href="mailto:info@minami.ac" className="font-mono text-zinc-200 text-[11px] hover:underline">info@minami.ac</a>
               </div>
 
             </div>

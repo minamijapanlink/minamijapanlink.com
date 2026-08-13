@@ -29,7 +29,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     japaneseName: 'イスラフィル・タルクデル',
     title: 'Managing Director',
     roleCategory: 'visa',
-    email: 'israfiltalukder60@gmail.com',
+    email: 'info@minami.ac',
     phone: '01726154687',
     image: imageIsrafil,
     experienceYears: 5,
@@ -49,7 +49,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     highlights: [
       'Managing Director leading Minami Japan Link operations, legal visa consultancy, and language education.',
       'Direct executive consultation available for student visa, COE processing, and career pathways in Japan.',
-      'Email: israfiltalukder60@gmail.com | Direct Mobile / WhatsApp: +8801726154687.'
+      'Email: info@minami.ac | Direct Mobile / WhatsApp: +8801726154687.'
     ]
   },
   {

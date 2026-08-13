@@ -42,8 +42,8 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection,
           </div>
 
           <div className="flex items-center gap-4 text-zinc-300 text-[11px] sm:text-xs">
-            <a href="mailto:minamijapanlink@gmail.com" className="flex items-center gap-1.5 hover:text-red-400 transition-colors">
-              <Mail className="w-3.5 h-3.5 text-red-400" /> minamijapanlink@gmail.com
+            <a href="mailto:info@minami.ac" className="flex items-center gap-1.5 hover:text-red-400 transition-colors">
+              <Mail className="w-3.5 h-3.5 text-red-400" /> info@minami.ac
             </a>
             <span className="text-zinc-600">|</span>
             <a 
